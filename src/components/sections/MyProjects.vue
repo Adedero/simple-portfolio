@@ -8,8 +8,19 @@ import solarCare from '@/assets/images/solar-care.png';
 import soltracker from '@/assets/images/soltracker.png';
 import cscPortal from '@/assets/images/csc-portal.png';
 import twentiesConnect from '@/assets/images/twenties-connect.png';
+import nextportexpress from '@/assets/images/nextportexpress.png';
 
 const projects = [
+  {
+    id: 10001,
+    year: 2025,
+    tools: ['Nuxt.Js', 'Vue.Js', 'Tailwind CSS', 'MongoDB', 'Typescript'],
+    imageUrl: nextportexpress,
+    demoUrl: "https://www.nextportexpress.com",
+    githubUrl: "https://github.com/Adedero/nextportexpress/",
+    isPrivate: false,
+    description: "NextPort Express is a logistics platform that connects shippers with carriers, streamlining the shipping process. It offers real-time tracking, route optimization, and a user-friendly interface for managing shipments. The platform enhances efficiency and transparency in logistics operations, making it easier for businesses to manage their supply chain."
+  },
   {
     id: 1,
     title: 'Twenties Connect',
